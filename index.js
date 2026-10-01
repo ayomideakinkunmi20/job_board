@@ -19,7 +19,7 @@ app.use('/api/application',applicationRoutes)
 
 
 
-const port = process.env.port
+const port = process.env.PORT ||6060
 
 app.listen(port);
 console.log(`app already in port at ${port} listening`);
